@@ -91,7 +91,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Congratulations! You have completed the game.
+            Congratulations, Sanu! You have successfully completed the love game created by yours Ghimire.
           </motion.h2>
         )}
         {step === 1 && (
@@ -103,7 +103,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            I have a surprise for you!
+            Wait wait, I have a surprise for you sanu!
           </motion.h2>
         )}
         {step === 2 && (
@@ -132,7 +132,7 @@ export default function ValentinesProposal() {
             <h2
               className={`text-5xl font-semibold mb-8 ${playfairDisplay.className}`}
             >
-              Will you be my Valentine?
+              Will you be my Valentine sanu?
             </h2>
             <Image
               src="/sad_hamster.png"
@@ -175,8 +175,8 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Thank you for accepting, I love you! 💕
-            <p className="text-sm mt-4">For more information, write me!!! 💌</p>
+            I Know you would ofcourse accpet me! Happy Valentines Day Sanu, I love you! more and more for rest of my life 💕
+            <p className="text-sm mt-4">You are my silent motivator, I met you, I liked you, I love you and I'll keep loving you!!! 💌</p>
             <Image
               src="/hamster_jumping.gif"
               alt="Hamster Feliz"
